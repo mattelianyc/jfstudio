@@ -10,8 +10,8 @@
 angular.module('erkApp')
   .controller('MainCtrl', function () {
 
-    setInterval(function(){
-    	$('#TickerTape').animate({left:'-='+$('#TickerTape > li > img').width()+''}, 1000);
-    },4000);
+    $('#Work').click(function(){
+    	$("html, body").animate({ scrollTop: $(document).height() }, 1000);
+    });
 
   });

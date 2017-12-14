@@ -12,12 +12,15 @@ $fa-font-path: "../bower_components/font-awesome/fonts/";
   font-family: "NYC1970";
 }
 
-
 body {
   position: absolute;
   height:100%;width:100%;
   padding:0;margin:0;
   overflow-x: hidden;
+}
+
+.jumbotron {
+  background-color: white;
 }
 
 a {
@@ -99,25 +102,21 @@ div[id$="ContentContainer"] {
       h1 {
         color:#CF5300;
         text-shadow: 2px 2px black;
-        position:absolute;
-        bottom:5px;
-        right:15px;
-        font-size:8em;
-        border-bottom: 10px solid dodgerblue;
+        // border-bottom: 10px solid dodgerblue;
       }
     }
 
     .container {
-      position: absolute;
       background: rgba(dodgerblue,0.6);
-      bottom:15px; 
-      left:15px; 
-      top:20%;
+      // position: absolute;
+      // bottom:15px; 
+      // left:15px; 
+      // top:20%;
+      // bottom:10%;
       padding:5px;
       border-radius:4px;
       overflow-y: scroll;
       overflow-x: hidden;
-      width:36%;
       z-index: 500;
     }
 

@@ -9,5 +9,7 @@
  */
 angular.module('erkApp')
   .controller('GalleryCtrl', function ($scope) {
-    console.log('blogga');
+    $('#Gallery').click(function(){
+    	$("html, body").animate({ scrollTop: $(document).height() }, 1000);
+    });
   });
