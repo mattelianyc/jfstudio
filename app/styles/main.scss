@@ -79,14 +79,18 @@ nav.navbar-default {
   }
 }
 
-div[id$="ContentContainer"] {
-  background: url('/images/aboutBanner.jpeg');
+.main-bg-img {
+  background: url('/images/ConsoleBgImg.jpg');
   background-size: cover;
   background-repeat:no-repeat;
   height:100%;
   overflow: hidden;
   position:fixed;
   top:0;left:0;right:0;
+  
+}
+
+div[id$="ContentContainer"] {
   div[class$="-content-wrapper"] {
     div[id$="Jumbotron"] {
       color: black;
@@ -170,7 +174,7 @@ footer {
     span {
       color: dodgerblue;      
       &:hover {
-        pointer:cursor;
+        pointer: cursor;
         color:#CF5300 !important; 
       }
     }
@@ -237,7 +241,7 @@ footer {
     bottom: 0;
     background: white;
     z-index: 4;
-    transform: translateY(200%);
+    transform: translateY(100%);
 }
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {}

@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name erkApp.controller:BlogCtrl
+ * @name erkApp.controller:GalleryCtrl
  * @description
- * # BlogCtrl
+ * # GalleryCtrl
  * Controller of the erkApp
  */
 angular.module('erkApp')
-  .controller('BlogCtrl', function ($scope) {
+  .controller('GalleryCtrl', function ($scope) {
     console.log('blogga');
   });
