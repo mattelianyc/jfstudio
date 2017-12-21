@@ -10,8 +10,8 @@
 angular.module('erkApp')
   .controller('MainCtrl', function () {
 
-    $('#Work').click(function(){
-    	$("html, body").animate({ scrollTop: $(document).height() }, 1000);
-    });
+    // $('#Work').click(function(){
+    // 	$("html, body").animate({ scrollTop: $(document).height() }, 1000);
+    // });
 
   });
